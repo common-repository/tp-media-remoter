@@ -1,0 +1,61 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased !important; 
+  -moz-osx-font-smoothing: grayscale !important;
+  
+}
+.cl-01{
+	width: 8.33333333%;
+	float: left;
+	position: relative;
+}
+.cl-03{
+	width: 31%;
+	float: left;
+	position: relative;
+}
+.cl-04{
+	width: 33.33333333%;
+	float: left;
+	position: relative;
+}
+.cl-06{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.cl-08{
+	width: 66.66666667%;
+	float: left;
+	position: relative;
+}
+.cl-12{
+  width: 100%;
+  float: none;
+  position: relative;
+}
+// Extend FontAwesome
+%fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+%fi{
+	display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

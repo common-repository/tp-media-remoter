@@ -1,0 +1,126 @@
+@mixin transition( $select: all, $delay: 0.3s, $type: ease ) {
+  -webkit-transition: $select $delay $type;
+  -moz-transition: $select $delay $type;
+  -ms-transition: $select $delay $type;
+  -o-transition: $select $delay $type;
+  transition: $select $delay $type;
+}
+//Transition tranform scale
+@mixin scale( $scale: 0 ) {
+  transform: scale( $scale );
+  -webkit-transform: scale( $scale );
+  -moz-transform: scale( $scale );
+  -o-transform: scale( $scale );
+}
+@mixin scaleX( $scale: 0 ) {
+  transform: scaleX( $scale );
+  -webkit-transform: scaleX( $scale );
+  -moz-transform: scaleX( $scale );
+  -o-transform: scaleX( $scale );
+}
+@mixin scaleY( $scale: 0 ) {
+  transform: scaleY( $scale );
+  -webkit-transform: scaleY( $scale ); 
+  -moz-transform: scaleY( $scale );
+  -o-transform: scaley( $scale );
+}
+@mixin translate($x,$y){
+  -ms-transform: translate($x,$y); 
+  -webkit-transform: translate($x,$y); 
+  transform: translate($x,$y);
+}
+@mixin translateY($y){
+  -ms-transform: translateY($y); 
+  -webkit-transform: translateY($y); 
+  transform: translateY($y);
+}
+@mixin translateX($x){
+  -ms-transform: translateX($x); 
+  -webkit-transform: translateX($x); 
+  transform: translateX($x);
+}
+//border radius
+@mixin border-radius( $radius: 5px ) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -o-border-radius: $radius;
+  border-radius: $radius;
+}
+//Box-shadow
+@mixin box-shadow( $color: $color-black, $Horizontal: 0px, $Vertical: 3px, $Blur-Radius: 5px ) {
+  -moz-box-shadow: $Horizontal $Vertical $Blur-Radius $color;
+  -o-box-shadow: $Horizontal $Vertical $Blur-Radius $color;
+  -ms-box-shadow: $Horizontal $Vertical $Blur-Radius $color;
+  -webkit-box-shadow: $Horizontal $Vertical $Blur-Radius $color;
+  box-shadow: $Horizontal $Vertical $Blur-Radius $color;
+}
+
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -o-transform: $transform;
+  transform: $transform;
+}
+@mixin rotate($rotate) {
+  @include transform(rotate($rotate));
+}
+@mixin rotateX($rotateX){
+  @include transform(rotateX($rotateX));
+}
+@mixin rotateY($rotateY){
+  @include transform(rotateY($rotateY));
+}
+
+//SIZE
+@mixin size( $width: 100%, $height: 100% ) {
+  width: $width;
+  height: $height;
+}
+@mixin size-max( $width: 100%, $height: 100% ) {
+  max-width: $width;
+  max-height: $height;
+}
+
+//font-size and color title product
+@mixin custom-text( $color: $color-black, $size:14px, $weight: bold, $spacing: 0px ) {
+  color: $color;
+  font-weight: $weight;
+  letter-spacing: $spacing;
+  font-size: $size;
+}
+
+//background btn
+@mixin btn-hover( $background: transparent, $color: $primary_color, $border: 1px solid $primary_color ) {
+  background: $background;
+  color: $color;
+  border: $border;
+}
+
+//Position right top
+@mixin position-top-right( $top: 0, $right: 0 ) {
+  position: absolute;
+  top: $top;
+  right: $right;
+}
+//Position right bottom
+@mixin position-bottom-right( $bottom: 0, $right: 0 ) {
+  position: absolute;
+  bottom: $bottom;
+  right: $right;
+}
+//Position left top
+@mixin position-top-left( $top: 0, $left: 0 ) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+//Position left bottom
+@mixin position-bottom-left( $bottom: 0, $left: 0 ) {
+  position: absolute;
+  bottom: $bottom;
+  left: $left;
+}
+
+
+

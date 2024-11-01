@@ -1,0 +1,218 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-11 20:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+#: tp-media-remoter.php:120 tp-media-remoter.php:120 templates/install.php:22
+msgid "TP Media Remoter"
+msgstr ""
+
+#: tp-media-remoter.php:203
+msgid "Cancel Export"
+msgstr ""
+
+#: tp-media-remoter.php:204
+msgid "Export Selected To"
+msgstr ""
+
+#: tp-media-remoter.php:205
+msgid ""
+"You are about to upload all of the selected media to this selected ImgDrive "
+"account.\n"
+"'Cancel' to stop, 'OK' to upload."
+msgstr ""
+
+#: tp-media-remoter.php:206 includes/class-tpmr-ajax.php:169
+msgid "Please, enter a valid email."
+msgstr ""
+
+#: tp-media-remoter.php:207
+msgid "Please, enter a valid product key."
+msgstr ""
+
+#: tp-media-remoter.php:259 tp-media-remoter.php:259
+msgid "Settings"
+msgstr ""
+
+#: includes/class-tpmr-ajax.php:59
+msgid "Account service not found"
+msgstr ""
+
+#: includes/class-tpmr-ajax.php:165 includes/class-tpmr-ajax.php:210
+msgid "Sorry, your security key did not verify."
+msgstr ""
+
+#: includes/class-tpmr-ajax.php:214
+msgid "Your product key can not be empty."
+msgstr ""
+
+#: includes/class-tpmr-ajax.php:218
+msgid "Email is not validate."
+msgstr ""
+
+#: includes/class-tpmr-featured-image.php:68
+msgid "Click the image to edit or update"
+msgstr ""
+
+#: includes/class-tpmr-hooks.php:22
+msgid "Medium Large"
+msgstr ""
+
+#: includes/class-tpmr-hooks.php:38
+msgid "Media Remoter"
+msgstr ""
+
+#: includes/class-tpmr-hooks.php:39
+msgid "Insert Media Remoter"
+msgstr ""
+
+#: includes/class-tpmr-hooks.php:45
+msgid "Set from Media Remoter"
+msgstr ""
+
+#: includes/class-tpmr-media.php:226
+msgid "F j, Y"
+msgstr ""
+
+#: includes/class-tpmr-media.php:302 includes/class-tpmr-media.php:337
+msgid "Email and product key are invalid."
+msgstr ""
+
+#: templates/attachment-upload.php:6
+msgid "Select an image to upload directly to TP Media Remoter"
+msgstr ""
+
+#: templates/attachment-upload.php:8
+msgid "Select File"
+msgstr ""
+
+#: templates/attachment-upload.php:16
+#, php-format
+msgid "Maximum upload file size: %s."
+msgstr ""
+
+#: templates/attachment-upload.php:27
+msgid "Picture Settings"
+msgstr ""
+
+#: templates/attachment-upload.php:36
+msgid "Title:"
+msgstr ""
+
+#: templates/attachment-upload.php:37
+msgid "Enter title"
+msgstr ""
+
+#: templates/attachment-upload.php:41
+msgid "Description:"
+msgstr ""
+
+#: templates/attachment-upload.php:42
+msgid "Enter description"
+msgstr ""
+
+#: templates/attachment-upload.php:45
+msgid "Start Upload"
+msgstr ""
+
+#: templates/install.php:23
+msgid "An effective and safe external library to save your hosting storage."
+msgstr ""
+
+#: templates/install.php:32
+msgid "Rating now!"
+msgstr ""
+
+#: templates/install.php:50
+msgid "Live Chat Support"
+msgstr ""
+
+#: templates/install.php:64
+msgid "Get a product key via email"
+msgstr ""
+
+#: templates/install.php:68
+msgid "Validate product key from the email"
+msgstr ""
+
+#: templates/install.php:72
+msgid "Your product key is activated"
+msgstr ""
+
+#: templates/install.php:81
+msgid "Get a free key"
+msgstr ""
+
+#: templates/install.php:83
+msgid "If you have a product key?"
+msgstr ""
+
+#: templates/install.php:83
+msgid "Active now"
+msgstr ""
+
+#: templates/install.php:88
+msgid "Enter product key"
+msgstr ""
+
+#: templates/install.php:91
+msgid "Validate key"
+msgstr ""
+
+#: templates/install.php:94
+msgid "Do you received a product key from email?"
+msgstr ""
+
+#: templates/install.php:94
+msgid "Back to resend email"
+msgstr ""
+
+#: templates/install.php:111
+msgid "Enter new product key"
+msgstr ""
+
+#: templates/install.php:114
+msgid "Update key"
+msgstr ""
+
+#: templates/install.php:114
+msgid "Change key"
+msgstr ""
+
+#: templates/install.php:119
+msgid "Cancel update"
+msgstr ""
+
+#: templates/install.php:120
+msgid "Register new key"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Insert featured image and media to Editor using WordPress Media Library with "
+"a external library. The best way to save your hosting storage."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/tp-media-remoter/"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemesPond"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themespond.com/"
+msgstr ""
